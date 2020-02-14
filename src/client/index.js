@@ -10,7 +10,7 @@ class App extends React.Component {
     const currentCount = this.state.count;
 
     this.setState({
-      // eslint-disable-next-line no-magic-numbers
+
       count: currentCount + 1,
     });
   };
