@@ -11,6 +11,7 @@ class App extends React.Component {
 
     this.setState({
 
+      // eslint-disable-next-line no-magic-numbers
       count: currentCount + 1,
     });
   };
